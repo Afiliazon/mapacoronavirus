@@ -12,7 +12,8 @@
   "cordova": {
     "plugins": {
       "cordova-plugin-whitelist": {},
-      "cordova-admob": {}
+      "cordova-admob": {},
+      "onesignal-cordova-plugin": {}
     },
     "platforms": [
       "android"
@@ -51,6 +52,7 @@
     "fuse.js": "^3.4.3",
     "ngx-bootstrap": "^5.5.0",
     "ngx-perfect-scrollbar": "^9.0.0",
+    "onesignal-cordova-plugin": "2.8.4",
     "rxjs": "^6.5.4",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2"

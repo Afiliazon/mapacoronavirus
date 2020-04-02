@@ -98,6 +98,7 @@ ext {
 }
 
 // PLUGIN GRADLE EXTENSIONS START
+apply from: "../onesignal-cordova-plugin/hello-build-extras-onesignal.gradle"
 // PLUGIN GRADLE EXTENSIONS END
 
 def hasBuildExtras1 = file('build-extras.gradle').exists()
@@ -294,6 +295,7 @@ dependencies {
     // SUB-PROJECT DEPENDENCIES START
     implementation(project(path: ":CordovaLib"))
     implementation "com.google.android.gms:play-services-ads:15.0.0"
+    implementation "com.onesignal:OneSignal:3.12.7"
     // SUB-PROJECT DEPENDENCIES END
 }
 
