@@ -13,10 +13,6 @@
     "onesignal-cordova-plugin": {
       "PACKAGE_NAME": "com.example.hello"
     },
-    "cordova-android-support-gradle-release": {
-      "ANDROID_SUPPORT_VERSION": "27.+",
-      "PACKAGE_NAME": "com.example.hello"
-    },
     "cordova-plugin-admob-free": {
       "ADMOB_APP_ID": "<YOUR_ADMOB_APP_ID_AS_FOUND_IN_ADMOB>",
       "PLAY_SERVICES_VERSION": "11.0.4",
