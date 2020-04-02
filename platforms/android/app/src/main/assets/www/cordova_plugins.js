@@ -31,6 +31,7 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
     "cordova-connectivity-monitor": "1.2.2",
     "cordova-play-services-version-adapter": "1.0.2",
     "cordova-admob": "5.1.0",
-    "onesignal-cordova-plugin": "2.8.4"
+    "onesignal-cordova-plugin": "2.8.4",
+    "cordova-android-support-gradle-release": "3.0.1"
   };
 });
